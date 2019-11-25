@@ -1,0 +1,95 @@
+{
+  "uid" : "3a1a2d725bda0d92",
+  "name" : "test_login_error[alex11-abc123-用户名和密码不匹配]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_error",
+  "historyId" : "426fd6a58740e3b9942c04739dde9f1d",
+  "time" : {
+    "start" : 1573744014890,
+    "stop" : 1573744015245,
+    "duration" : 355
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: argument of type 'WebElement' is not iterable",
+  "statusTrace" : "self = <测试.iwebshop.test_scripts.test_login.TestLogin object at 0x000001C558367240>, user = 'alex11', pwd = 'abc123', exp = '用户名和密码不匹配'\n\n    @pytest.mark.parametrize(\"user,pwd,exp\", get_param(\"login_error\"))\n    def test_login_error(self, user, pwd, exp):\n        self.login_obj.login(user, pwd)\n>       assert exp in self.login_obj.get_not_match()\nE       TypeError: argument of type 'WebElement' is not iterable\n\ntest_scripts\\test_login.py:36: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1573744005267,
+      "stop" : 1573744010854,
+      "duration" : 5587
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1573744018193,
+      "stop" : 1573744020471,
+      "duration" : 2278
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "37368-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'用户名和密码不匹配'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123'"
+  }, {
+    "name" : "user",
+    "value" : "'alex11'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3a1a2d725bda0d92.json",
+  "parameterValues" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11'" ]
+}

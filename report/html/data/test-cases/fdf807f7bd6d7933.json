@@ -1,0 +1,202 @@
+{
+  "uid" : "fdf807f7bd6d7933",
+  "name" : "test_login_pass[alex -abc123-alex您好]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_pass",
+  "historyId" : "ba0d9cd529c2fd97965b9b4b137be599",
+  "time" : {
+    "start" : 1574662842162,
+    "stop" : 1574662842872,
+    "duration" : 710
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574662832199,
+      "stop" : 1574662838005,
+      "duration" : 5806
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录成功测试用例",
+      "time" : {
+        "start" : 1574662842162,
+        "stop" : 1574662842872,
+        "duration" : 710
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee0a29aa7bccac61",
+        "name" : "2ffe3496-f365-4290-8cd1-38a38f7525de-attachment.attach",
+        "source" : "ee0a29aa7bccac61.attach",
+        "type" : "text/plain",
+        "size" : 20
+      }, {
+        "uid" : "4245f7a460d2452b",
+        "name" : "874bba4c-ffaa-451a-935a-fdc7e39a5896-attachment.attach",
+        "source" : "4245f7a460d2452b.attach",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "7fe9c0e97954e8d4",
+        "name" : "d31c8a7e-4149-4406-b4b9-432f05e68a06-attachment.attach",
+        "source" : "7fe9c0e97954e8d4.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "9286a42a75bf9dac",
+        "name" : "bb9a607f-928b-4d96-a63a-586eecf494ae-attachment.attach",
+        "source" : "9286a42a75bf9dac.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'alex '"
+      }, {
+        "name" : "pwd",
+        "value" : "'abc123'"
+      }, {
+        "name" : "exp",
+        "value" : "'alex您好'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574662850083,
+      "stop" : 1574662852325,
+      "duration" : 2242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "35632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'alex您好'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123'"
+  }, {
+    "name" : "user",
+    "value" : "'alex '"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "857ff9012c0f7066",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573744817787,
+        "stop" : 1573744818453,
+        "duration" : 666
+      }
+    }, {
+      "uid" : "a916d87f602f6bb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573744116648,
+        "stop" : 1573744117245,
+        "duration" : 597
+      }
+    }, {
+      "uid" : "d29a2bbe1f87d1a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573744013097,
+        "stop" : 1573744013698,
+        "duration" : 601
+      }
+    }, {
+      "uid" : "49f6c940f11a9252",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573743816110,
+        "stop" : 1573743816739,
+        "duration" : 629
+      }
+    }, {
+      "uid" : "f59f571783c8ec35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573743537535,
+        "stop" : 1573743538615,
+        "duration" : 1080
+      }
+    }, {
+      "uid" : "4d529cba69d0a94a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Login' object has no attribute 'click'",
+      "time" : {
+        "start" : 1573743322511,
+        "stop" : 1573743322677,
+        "duration" : 166
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fdf807f7bd6d7933.json",
+  "parameterValues" : [ "'alex您好'", "'abc123'", "'alex '" ]
+}

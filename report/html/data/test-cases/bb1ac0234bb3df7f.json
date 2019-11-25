@@ -1,0 +1,93 @@
+{
+  "uid" : "bb1ac0234bb3df7f",
+  "name" : "test_login_error[alex' -- x-abc123-用户名和密码不匹配]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_error",
+  "historyId" : "e226953c7cc811dfdfe51d340ee4a7ff",
+  "time" : {
+    "start" : 1573744120033,
+    "stop" : 1573744120499,
+    "duration" : 466
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1573744108806,
+      "stop" : 1573744114450,
+      "duration" : 5644
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1573744121855,
+      "stop" : 1573744124141,
+      "duration" : 2286
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "47480-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'用户名和密码不匹配'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123'"
+  }, {
+    "name" : "user",
+    "value" : "'alex' -- x'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb1ac0234bb3df7f.json",
+  "parameterValues" : [ "'用户名和密码不匹配'", "'abc123'", "'alex' -- x'" ]
+}

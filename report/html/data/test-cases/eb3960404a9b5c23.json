@@ -1,0 +1,147 @@
+{
+  "uid" : "eb3960404a9b5c23",
+  "name" : "test_login_error[xxx' or 1==1 -- x-abc123-用户名和密码不匹配]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_error",
+  "historyId" : "960a7314a90bee131b33f54f1016d61a",
+  "time" : {
+    "start" : 1574662848423,
+    "stop" : 1574662848812,
+    "duration" : 389
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574662832199,
+      "stop" : 1574662838005,
+      "duration" : 5806
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "用户名和密码不匹配测试用例",
+      "time" : {
+        "start" : 1574662848423,
+        "stop" : 1574662848812,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6f67423240fbef7",
+        "name" : "07778038-9f15-4de9-88bd-c2fceba55bb8-attachment.attach",
+        "source" : "b6f67423240fbef7.attach",
+        "type" : "text/plain",
+        "size" : 32
+      }, {
+        "uid" : "39d7461e5c12b8ad",
+        "name" : "37b7c6f5-b755-4fc1-b0e2-eb1ffc160265-attachment.attach",
+        "source" : "39d7461e5c12b8ad.attach",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "7c0fbf7d28bf338d",
+        "name" : "7b54b855-fe04-4fec-8b63-fdd453e6087a-attachment.attach",
+        "source" : "7c0fbf7d28bf338d.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'xxx' or 1==1 -- x'"
+      }, {
+        "name" : "pwd",
+        "value" : "'abc123'"
+      }, {
+        "name" : "exp",
+        "value" : "'用户名和密码不匹配'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574662850083,
+      "stop" : 1574662852325,
+      "duration" : 2242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "35632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'用户名和密码不匹配'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123'"
+  }, {
+    "name" : "user",
+    "value" : "'xxx' or 1==1 -- x'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb3960404a9b5c23.json",
+  "parameterValues" : [ "'用户名和密码不匹配'", "'abc123'", "'xxx' or 1==1 -- x'" ]
+}

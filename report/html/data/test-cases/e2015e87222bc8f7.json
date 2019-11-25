@@ -1,0 +1,86 @@
+{
+  "uid" : "e2015e87222bc8f7",
+  "name" : "test_link_pwd",
+  "fullName" : "test_scripts.test_login.TestLogin#test_link_pwd",
+  "historyId" : "9a5ca6e4ff2b41b61f5d2a58e3d804a3",
+  "time" : {
+    "start" : 1573743542744,
+    "stop" : 1573743542744,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Login' object has no attribute 'click_link_pwd'",
+  "statusTrace" : "self = <测试.iwebshop.test_scripts.test_login.TestLogin object at 0x0000022E648F00B8>\n\n    def test_link_pwd(self):\n>       self.login_obj.click_link_pwd()\nE       AttributeError: 'Login' object has no attribute 'click_link_pwd'\n\ntest_scripts\\test_login.py:47: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1573743528103,
+      "stop" : 1573743534076,
+      "duration" : 5973
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1573743542752,
+      "stop" : 1573743545024,
+      "duration" : 2272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "44396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2015e87222bc8f7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,147 @@
+{
+  "uid" : "166d7cc2f277b188",
+  "name" : "test_login_error[alex @163.com-abc123-用户名和密码不匹配]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_error",
+  "historyId" : "b08f466a9e1b91712cb8938958910ac1",
+  "time" : {
+    "start" : 1574662845765,
+    "stop" : 1574662846115,
+    "duration" : 350
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574662832199,
+      "stop" : 1574662838005,
+      "duration" : 5806
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "用户名和密码不匹配测试用例",
+      "time" : {
+        "start" : 1574662845766,
+        "stop" : 1574662846115,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "175f48b58b70ce18",
+        "name" : "f8d9c4bd-f8c2-46b4-91b5-c2b2cfaca6a6-attachment.attach",
+        "source" : "175f48b58b70ce18.attach",
+        "type" : "text/plain",
+        "size" : 28
+      }, {
+        "uid" : "569338aa931edd6c",
+        "name" : "70d0cb66-180d-47b8-9491-3ce2b2cbcf55-attachment.attach",
+        "source" : "569338aa931edd6c.attach",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "899350d2101f04fe",
+        "name" : "57303c75-940a-4cbb-882c-4291e7ece43c-attachment.attach",
+        "source" : "899350d2101f04fe.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'alex @163.com'"
+      }, {
+        "name" : "pwd",
+        "value" : "'abc123'"
+      }, {
+        "name" : "exp",
+        "value" : "'用户名和密码不匹配'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574662850083,
+      "stop" : 1574662852325,
+      "duration" : 2242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "35632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'用户名和密码不匹配'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123'"
+  }, {
+    "name" : "user",
+    "value" : "'alex @163.com'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "166d7cc2f277b188.json",
+  "parameterValues" : [ "'用户名和密码不匹配'", "'abc123'", "'alex @163.com'" ]
+}

@@ -1,0 +1,95 @@
+{
+  "uid" : "d83468360a94a433",
+  "name" : "test_login_pass[ALEX-abc123-alex您好]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_pass",
+  "historyId" : "b7256560435a7912500a388aefc4d419",
+  "time" : {
+    "start" : 1573743322115,
+    "stop" : 1573743322306,
+    "duration" : 191
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Login' object has no attribute 'click'",
+  "statusTrace" : "self = <测试.iwebshop.test_scripts.test_login.TestLogin object at 0x000001C6DA1D2E48>, user = 'ALEX', pwd = 'abc123', exp = 'alex您好'\n\n    @pytest.mark.parametrize(\"user,pwd,exp\", get_param(\"login_pass\"))\n    def test_login_pass(self, user, pwd, exp):\n>       self.login_obj.login(user, pwd)\n\ntest_scripts\\test_login.py:32: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <page.login_page.Login object at 0x000001C6DA1DEBA8>, user = 'ALEX', pwd = 'abc123'\n\n    def login(self, user, pwd):\n        # 输入用户名\n        self.send_data(settings.EL_USER, user)\n        # 输入密码\n        self.send_data(settings.EL_PWD, pwd)\n        # 点击登录\n>       self.click(settings.EL_SUBMIT)\nE       AttributeError: 'Login' object has no attribute 'click'\n\npage\\login_page.py:17: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1573743315801,
+      "stop" : 1573743321598,
+      "duration" : 5797
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1573743324305,
+      "stop" : 1573743326590,
+      "duration" : 2285
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "34120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'alex您好'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123'"
+  }, {
+    "name" : "user",
+    "value" : "'ALEX'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d83468360a94a433.json",
+  "parameterValues" : [ "'alex您好'", "'abc123'", "'ALEX'" ]
+}

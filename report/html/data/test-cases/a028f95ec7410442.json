@@ -1,0 +1,197 @@
+{
+  "uid" : "a028f95ec7410442",
+  "name" : "test_login_part[-abc123-填写用户名或邮箱]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_part",
+  "historyId" : "08fa14fd78d48ce7792eaa89c3149cd5",
+  "time" : {
+    "start" : 1574662848819,
+    "stop" : 1574662849067,
+    "duration" : 248
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574662832199,
+      "stop" : 1574662838005,
+      "duration" : 5806
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "用户名或密码输入无效测试用例",
+      "time" : {
+        "start" : 1574662848819,
+        "stop" : 1574662849067,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e62eb3fed765d46e",
+        "name" : "343461c3-0fd4-4f16-8584-ac88ff9c0d72-attachment.attach",
+        "source" : "e62eb3fed765d46e.attach",
+        "type" : "text/plain",
+        "size" : 15
+      }, {
+        "uid" : "2448a430ec0c57d7",
+        "name" : "414683b1-adf8-47f7-a7b7-c95091cdbeda-attachment.attach",
+        "source" : "2448a430ec0c57d7.attach",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "ad2b39896b48cf7d",
+        "name" : "08baf2ec-8fe0-40c3-9b78-7f25bc0486f5-attachment.attach",
+        "source" : "ad2b39896b48cf7d.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "''"
+      }, {
+        "name" : "pwd",
+        "value" : "'abc123'"
+      }, {
+        "name" : "exp",
+        "value" : "'填写用户名或邮箱'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574662850083,
+      "stop" : 1574662852325,
+      "duration" : 2242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "35632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'填写用户名或邮箱'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123'"
+  }, {
+    "name" : "user",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c7e707f645eca425",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573744821802,
+        "stop" : 1573744822089,
+        "duration" : 287
+      }
+    }, {
+      "uid" : "a79c6e0417ed2c70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573744120509,
+        "stop" : 1573744120773,
+        "duration" : 264
+      }
+    }, {
+      "uid" : "1a9d56d363a0e3ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573744016889,
+        "stop" : 1573744017188,
+        "duration" : 299
+      }
+    }, {
+      "uid" : "7372b8a4ed1b176c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573743819899,
+        "stop" : 1573743820183,
+        "duration" : 284
+      }
+    }, {
+      "uid" : "955cf18b68ad17fe",
+      "status" : "broken",
+      "statusDetails" : "TypeError: login() takes 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1573743542661,
+        "stop" : 1573743542661,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4b682d7756c8fa96",
+      "status" : "broken",
+      "statusDetails" : "TypeError: login() takes 3 positional arguments but 4 were given",
+      "time" : {
+        "start" : 1573743324206,
+        "stop" : 1573743324207,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a028f95ec7410442.json",
+  "parameterValues" : [ "'填写用户名或邮箱'", "'abc123'", "''" ]
+}

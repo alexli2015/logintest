@@ -1,0 +1,1662 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-JKISR1H",
+    "children" : [ {
+      "name" : "47480-MainThread",
+      "children" : [ {
+        "name" : "test_login_pass[alex-abc123-alex您好]",
+        "uid" : "120faa645b6fc98c",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744114453,
+          "stop" : 1573744115278,
+          "duration" : 825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex@163.com-abc123-alex您好]",
+        "uid" : "aa3256109953cc78",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744117259,
+          "stop" : 1573744117911,
+          "duration" : 652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex@163.com'" ]
+      }, {
+        "name" : "test_login_error[alex11@163.com-abc123-用户名和密码不匹配]",
+        "uid" : "22a255f7d8e209c7",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744118775,
+          "stop" : 1573744119206,
+          "duration" : 431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11@163.com'" ]
+      }, {
+        "name" : "test_login_error[alex-abc1234-用户名和密码不匹配]",
+        "uid" : "83220f096ac564b",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744119219,
+          "stop" : 1573744119618,
+          "duration" : 399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc1234'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[ALEX-abc123-alex您好]",
+        "uid" : "aedd7e3eed6a1bf6",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744115290,
+          "stop" : 1573744116035,
+          "duration" : 745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'ALEX'" ]
+      }, {
+        "name" : "test_login_part[alex-a bc123 -填写密码]",
+        "uid" : "5388d747a001d7b9",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744121401,
+          "stop" : 1573744121647,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'a bc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_error[a lex-abc123-用户名和密码不匹配]",
+        "uid" : "63b8a4419c07bac6",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744117924,
+          "stop" : 1573744118347,
+          "duration" : 423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'a lex'" ]
+      }, {
+        "name" : "test_login_part[-abc123-填写用户名或邮箱]",
+        "uid" : "a79c6e0417ed2c70",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744120509,
+          "stop" : 1573744120773,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写用户名或邮箱'", "'abc123'", "''" ]
+      }, {
+        "name" : "test_login_part[alex- abc123-填写密码]",
+        "uid" : "6a0175f510f68682",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744120967,
+          "stop" : 1573744121179,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "' abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex -abc123-alex您好]",
+        "uid" : "a916d87f602f6bb6",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744116648,
+          "stop" : 1573744117245,
+          "duration" : 597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex '" ]
+      }, {
+        "name" : "test_login_error[alex11-abc123-用户名和密码不匹配]",
+        "uid" : "2f2f8567e1ebcd9d",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744118360,
+          "stop" : 1573744118760,
+          "duration" : 400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11'" ]
+      }, {
+        "name" : "test_login_part[alex--填写密码]",
+        "uid" : "5d106eeed778e63c",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744120781,
+          "stop" : 1573744120960,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "''", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex-ABC123-用户名和密码不匹配]",
+        "uid" : "6b809504adcd7999",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744119627,
+          "stop" : 1573744120018,
+          "duration" : 391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'ABC123'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[ alex-abc123-alex您好]",
+        "uid" : "57a766d35f2b6025",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744116048,
+          "stop" : 1573744116630,
+          "duration" : 582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "' alex'" ]
+      }, {
+        "name" : "test_login_part[alex-abc123 -填写密码]",
+        "uid" : "df13b272f01efaf3",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744121187,
+          "stop" : 1573744121391,
+          "duration" : 204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'abc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex' -- x-abc123-用户名和密码不匹配]",
+        "uid" : "bb1ac0234bb3df7f",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744120033,
+          "stop" : 1573744120499,
+          "duration" : 466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex' -- x'" ]
+      }, {
+        "name" : "test_link_pwd",
+        "uid" : "dc3572a6d738ebfe",
+        "parentUid" : "66337a8e0c45da67ab532f29b54e08d1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744121654,
+          "stop" : 1573744121854,
+          "duration" : 200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "66337a8e0c45da67ab532f29b54e08d1"
+    }, {
+      "name" : "34120-MainThread",
+      "children" : [ {
+        "name" : "test_login_pass[ALEX-abc123-alex您好]",
+        "uid" : "d83468360a94a433",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743322115,
+          "stop" : 1573743322306,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'ALEX'" ]
+      }, {
+        "name" : "test_login_error[alex' -- x-abc123-用户名和密码不匹配]",
+        "uid" : "17a8b5504b4ef300",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743323995,
+          "stop" : 1573743324185,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex' -- x'" ]
+      }, {
+        "name" : "test_login_pass[alex -abc123-alex您好]",
+        "uid" : "4d529cba69d0a94a",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743322511,
+          "stop" : 1573743322677,
+          "duration" : 166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex '" ]
+      }, {
+        "name" : "test_link_pwd",
+        "uid" : "3a7d83941ba199c",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743324297,
+          "stop" : 1573743324297,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_part[alex-a bc123 -填写密码]",
+        "uid" : "ace585b853cdaec9",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743324281,
+          "stop" : 1573743324281,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'a bc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex@163.com-abc123-alex您好]",
+        "uid" : "e687aa801bd4ae12",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743322728,
+          "stop" : 1573743322926,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex@163.com'" ]
+      }, {
+        "name" : "test_login_error[alex11-abc123-用户名和密码不匹配]",
+        "uid" : "846f63a85815b967",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743323169,
+          "stop" : 1573743323345,
+          "duration" : 176
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11'" ]
+      }, {
+        "name" : "test_login_error[a lex-abc123-用户名和密码不匹配]",
+        "uid" : "eaf5ec3fb88927d0",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743322968,
+          "stop" : 1573743323145,
+          "duration" : 177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'a lex'" ]
+      }, {
+        "name" : "test_login_error[alex11@163.com-abc123-用户名和密码不匹配]",
+        "uid" : "540e842f2d61ebe0",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743323370,
+          "stop" : 1573743323558,
+          "duration" : 188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11@163.com'" ]
+      }, {
+        "name" : "test_login_part[alex-abc123 -填写密码]",
+        "uid" : "aab79153f676491e",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743324262,
+          "stop" : 1573743324262,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'abc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_part[-abc123-填写用户名或邮箱]",
+        "uid" : "4b682d7756c8fa96",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743324206,
+          "stop" : 1573743324207,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写用户名或邮箱'", "'abc123'", "''" ]
+      }, {
+        "name" : "test_login_pass[ alex-abc123-alex您好]",
+        "uid" : "6e019ed76ae400ab",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743322324,
+          "stop" : 1573743322488,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "' alex'" ]
+      }, {
+        "name" : "test_login_pass[alex-abc123-alex您好]",
+        "uid" : "ff665635db3201ac",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743321602,
+          "stop" : 1573743321976,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex-ABC123-用户名和密码不匹配]",
+        "uid" : "4a6bc6a89e110102",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743323790,
+          "stop" : 1573743323950,
+          "duration" : 160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'ABC123'", "'alex'" ]
+      }, {
+        "name" : "test_login_part[alex--填写密码]",
+        "uid" : "4d75bdcac396e34b",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743324226,
+          "stop" : 1573743324226,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "''", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex-abc1234-用户名和密码不匹配]",
+        "uid" : "2f1047a63801de7f",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743323580,
+          "stop" : 1573743323747,
+          "duration" : 167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc1234'", "'alex'" ]
+      }, {
+        "name" : "test_login_part[alex- abc123-填写密码]",
+        "uid" : "85c9f0e5fc214306",
+        "parentUid" : "7dbb9493b023124d4de721c55028ce13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743324243,
+          "stop" : 1573743324244,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "' abc123'", "'alex'" ]
+      } ],
+      "uid" : "7dbb9493b023124d4de721c55028ce13"
+    }, {
+      "name" : "47400-MainThread",
+      "children" : [ {
+        "name" : "test_login_part[alex--填写密码]",
+        "uid" : "f0910c55e4575a30",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744822097,
+          "stop" : 1573744822281,
+          "duration" : 184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "''", "'alex'" ]
+      }, {
+        "name" : "test_login_part[alex-a bc123 -填写密码]",
+        "uid" : "ca13bf3d9e5013d7",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744822733,
+          "stop" : 1573744822959,
+          "duration" : 226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'a bc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex@163.com-abc123-alex您好]",
+        "uid" : "af9170906d102e47",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744818468,
+          "stop" : 1573744819117,
+          "duration" : 649
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex@163.com'" ]
+      }, {
+        "name" : "test_login_pass[alex-abc123-alex您好]",
+        "uid" : "3519219bb7731d34",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744814278,
+          "stop" : 1573744816379,
+          "duration" : 2101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_part[-abc123-填写用户名或邮箱]",
+        "uid" : "c7e707f645eca425",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744821802,
+          "stop" : 1573744822089,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写用户名或邮箱'", "'abc123'", "''" ]
+      }, {
+        "name" : "test_login_pass[alex -abc123-alex您好]",
+        "uid" : "857ff9012c0f7066",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744817787,
+          "stop" : 1573744818453,
+          "duration" : 666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex '" ]
+      }, {
+        "name" : "test_login_pass[ALEX-abc123-alex您好]",
+        "uid" : "b5e5156cd9b6ce58",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744816405,
+          "stop" : 1573744817096,
+          "duration" : 691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'ALEX'" ]
+      }, {
+        "name" : "test_login_error[alex-abc1234-用户名和密码不匹配]",
+        "uid" : "e7d924874ea3fdd4",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744820455,
+          "stop" : 1573744820913,
+          "duration" : 458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc1234'", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex-ABC123-用户名和密码不匹配]",
+        "uid" : "a45d65ae91f0f65",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744820925,
+          "stop" : 1573744821368,
+          "duration" : 443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'ABC123'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[ alex-abc123-alex您好]",
+        "uid" : "57d8267c3b58fc85",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744817115,
+          "stop" : 1573744817769,
+          "duration" : 654
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "' alex'" ]
+      }, {
+        "name" : "test_login_error[alex11-abc123-用户名和密码不匹配]",
+        "uid" : "f2f1dc4677adaec9",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744819564,
+          "stop" : 1573744819974,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11'" ]
+      }, {
+        "name" : "test_login_error[alex11@163.com-abc123-用户名和密码不匹配]",
+        "uid" : "757c5fdfeac3c602",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744819987,
+          "stop" : 1573744820442,
+          "duration" : 455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11@163.com'" ]
+      }, {
+        "name" : "test_login_part[alex-abc123 -填写密码]",
+        "uid" : "c6ec528757917aac",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744822508,
+          "stop" : 1573744822722,
+          "duration" : 214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'abc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_error[a lex-abc123-用户名和密码不匹配]",
+        "uid" : "5d00c97c2c794a29",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744819135,
+          "stop" : 1573744819549,
+          "duration" : 414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'a lex'" ]
+      }, {
+        "name" : "test_link_pwd",
+        "uid" : "2ebc71ae38d1a2fe",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744822970,
+          "stop" : 1573744823164,
+          "duration" : 194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_error[alex' -- x-abc123-用户名和密码不匹配]",
+        "uid" : "492cbdd3964595b9",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744821383,
+          "stop" : 1573744821793,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex' -- x'" ]
+      }, {
+        "name" : "test_login_part[alex- abc123-填写密码]",
+        "uid" : "3bcf0c371f16df7f",
+        "parentUid" : "0ef6e76072814e6ad7f9bbac56329cb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744822288,
+          "stop" : 1573744822497,
+          "duration" : 209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "' abc123'", "'alex'" ]
+      } ],
+      "uid" : "0ef6e76072814e6ad7f9bbac56329cb9"
+    }, {
+      "name" : "44396-MainThread",
+      "children" : [ {
+        "name" : "test_login_pass[ALEX-abc123-alex您好]",
+        "uid" : "688cb290eab0a0f4",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743535310,
+          "stop" : 1573743536316,
+          "duration" : 1006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'ALEX'" ]
+      }, {
+        "name" : "test_login_error[a lex-abc123-用户名和密码不匹配]",
+        "uid" : "ab66bd3e28e39f8",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743539913,
+          "stop" : 1573743540369,
+          "duration" : 456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'a lex'" ]
+      }, {
+        "name" : "test_link_pwd",
+        "uid" : "e2015e87222bc8f7",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743542744,
+          "stop" : 1573743542744,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_error[alex' -- x-abc123-用户名和密码不匹配]",
+        "uid" : "e45cba127dc1d4c6",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743542246,
+          "stop" : 1573743542631,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex' -- x'" ]
+      }, {
+        "name" : "test_login_error[alex11@163.com-abc123-用户名和密码不匹配]",
+        "uid" : "5d0db55baf21bdc3",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743540970,
+          "stop" : 1573743541427,
+          "duration" : 457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11@163.com'" ]
+      }, {
+        "name" : "test_login_part[alex-abc123 -填写密码]",
+        "uid" : "f36ef76564a47fca",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743542711,
+          "stop" : 1573743542711,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'abc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_part[alex--填写密码]",
+        "uid" : "c909c7ee084ea123",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743542680,
+          "stop" : 1573743542680,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "''", "'alex'" ]
+      }, {
+        "name" : "test_login_part[-abc123-填写用户名或邮箱]",
+        "uid" : "955cf18b68ad17fe",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743542661,
+          "stop" : 1573743542661,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写用户名或邮箱'", "'abc123'", "''" ]
+      }, {
+        "name" : "test_login_pass[alex@163.com-abc123-alex您好]",
+        "uid" : "b156312861d56770",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743538630,
+          "stop" : 1573743539896,
+          "duration" : 1266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex@163.com'" ]
+      }, {
+        "name" : "test_login_pass[ alex-abc123-alex您好]",
+        "uid" : "ca9087cf0bd12fe8",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743536350,
+          "stop" : 1573743537503,
+          "duration" : 1153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "' alex'" ]
+      }, {
+        "name" : "test_login_error[alex-ABC123-用户名和密码不匹配]",
+        "uid" : "11e680a120c7d47b",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743541843,
+          "stop" : 1573743542219,
+          "duration" : 376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'ABC123'", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex11-abc123-用户名和密码不匹配]",
+        "uid" : "f2d898aea0ea588e",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743540526,
+          "stop" : 1573743540932,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11'" ]
+      }, {
+        "name" : "test_login_part[alex-a bc123 -填写密码]",
+        "uid" : "138fb17424615732",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743542727,
+          "stop" : 1573743542727,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'a bc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex -abc123-alex您好]",
+        "uid" : "f59f571783c8ec35",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743537535,
+          "stop" : 1573743538615,
+          "duration" : 1080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex '" ]
+      }, {
+        "name" : "test_login_error[alex-abc1234-用户名和密码不匹配]",
+        "uid" : "798b1bb24e4336a1",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743541461,
+          "stop" : 1573743541815,
+          "duration" : 354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc1234'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex-abc123-alex您好]",
+        "uid" : "b56f8261f86ee977",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743534077,
+          "stop" : 1573743535298,
+          "duration" : 1221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_part[alex- abc123-填写密码]",
+        "uid" : "ff1a536e7a117e54",
+        "parentUid" : "7273c2d13b5aea3b8a1bef38217a2e05",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743542696,
+          "stop" : 1573743542696,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "' abc123'", "'alex'" ]
+      } ],
+      "uid" : "7273c2d13b5aea3b8a1bef38217a2e05"
+    }, {
+      "name" : "45488-MainThread",
+      "children" : [ {
+        "name" : "test_login_pass[alex-abc123-alex您好]",
+        "uid" : "3ab5ed9f717651ea",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743814030,
+          "stop" : 1573743814826,
+          "duration" : 796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex-ABC123-用户名和密码不匹配]",
+        "uid" : "65fce23b17f99bf1",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743819065,
+          "stop" : 1573743819428,
+          "duration" : 363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'ABC123'", "'alex'" ]
+      }, {
+        "name" : "test_link_pwd",
+        "uid" : "8e8dfde560320038",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743821052,
+          "stop" : 1573743821052,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_part[alex--填写密码]",
+        "uid" : "5bced73d0f0117ce",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743820189,
+          "stop" : 1573743820369,
+          "duration" : 180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "''", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex11-abc123-用户名和密码不匹配]",
+        "uid" : "ad2d55e43fbae576",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743817916,
+          "stop" : 1573743818241,
+          "duration" : 325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11'" ]
+      }, {
+        "name" : "test_login_pass[alex@163.com-abc123-alex您好]",
+        "uid" : "21cf0a06d57025aa",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743816757,
+          "stop" : 1573743817390,
+          "duration" : 633
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex@163.com'" ]
+      }, {
+        "name" : "test_login_error[alex' -- x-abc123-用户名和密码不匹配]",
+        "uid" : "58e4ab489b0a398d",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743819458,
+          "stop" : 1573743819867,
+          "duration" : 409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex' -- x'" ]
+      }, {
+        "name" : "test_login_error[alex-abc1234-用户名和密码不匹配]",
+        "uid" : "c14d34ab7d728b34",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743818701,
+          "stop" : 1573743819038,
+          "duration" : 337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc1234'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex -abc123-alex您好]",
+        "uid" : "49f6c940f11a9252",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743816110,
+          "stop" : 1573743816739,
+          "duration" : 629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex '" ]
+      }, {
+        "name" : "test_login_part[alex-abc123 -填写密码]",
+        "uid" : "35b9a4fc0bfb3f37",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743820605,
+          "stop" : 1573743820802,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'abc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_part[-abc123-填写用户名或邮箱]",
+        "uid" : "7372b8a4ed1b176c",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743819899,
+          "stop" : 1573743820183,
+          "duration" : 284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写用户名或邮箱'", "'abc123'", "''" ]
+      }, {
+        "name" : "test_login_pass[ALEX-abc123-alex您好]",
+        "uid" : "7f28cb9f17474020",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743814845,
+          "stop" : 1573743815487,
+          "duration" : 642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'ALEX'" ]
+      }, {
+        "name" : "test_login_part[alex- abc123-填写密码]",
+        "uid" : "6671b0c1404ec71b",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743820375,
+          "stop" : 1573743820599,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "' abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_error[a lex-abc123-用户名和密码不匹配]",
+        "uid" : "fbe3cbdf80249a3e",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743817408,
+          "stop" : 1573743817766,
+          "duration" : 358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'a lex'" ]
+      }, {
+        "name" : "test_login_error[alex11@163.com-abc123-用户名和密码不匹配]",
+        "uid" : "18aa9b0c64342e78",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573743818269,
+          "stop" : 1573743818670,
+          "duration" : 401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11@163.com'" ]
+      }, {
+        "name" : "test_login_pass[ alex-abc123-alex您好]",
+        "uid" : "fea7d4b7186c42d9",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743815495,
+          "stop" : 1573743816092,
+          "duration" : 597
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "' alex'" ]
+      }, {
+        "name" : "test_login_part[alex-a bc123 -填写密码]",
+        "uid" : "acf3df9b08f51216",
+        "parentUid" : "2cb1d4ee15ca91bc84c75999420c8ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573743820810,
+          "stop" : 1573743821042,
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'a bc123 '", "'alex'" ]
+      } ],
+      "uid" : "2cb1d4ee15ca91bc84c75999420c8ebf"
+    }, {
+      "name" : "35632-MainThread",
+      "children" : [ {
+        "name" : "test_login_error[alex @163.com-abc123-用户名和密码不匹配]",
+        "uid" : "166d7cc2f277b188",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662845765,
+          "stop" : 1574662846115,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex @163.com'" ]
+      }, {
+        "name" : "test_login_part[alex--填写密码]",
+        "uid" : "7343c9db61ee82d1",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662849075,
+          "stop" : 1574662849232,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "''", "'alex'" ]
+      }, {
+        "name" : "test_link_pwd",
+        "uid" : "80dd3a640f7d2cb6",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662849852,
+          "stop" : 1574662850083,
+          "duration" : 231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_part[alex-abc123 -填写密码]",
+        "uid" : "f7a188dcbe3fc52d",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662849449,
+          "stop" : 1574662849645,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'abc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_part[alex- abc123-填写密码]",
+        "uid" : "4c0bdc2d4960f2bd",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662849240,
+          "stop" : 1574662849439,
+          "duration" : 199
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "' abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_error[a lex-abc123-用户名和密码不匹配]",
+        "uid" : "5ea5729924d39fb3",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662845391,
+          "stop" : 1574662845757,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'a lex'" ]
+      }, {
+        "name" : "test_login_error[alex11-abc123-用户名和密码不匹配]",
+        "uid" : "b2959c881c51536b",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662846122,
+          "stop" : 1574662846504,
+          "duration" : 382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11'" ]
+      }, {
+        "name" : "test_login_error[alex-ABC123-用户名和密码不匹配]",
+        "uid" : "ccc0fe2c9a748aae",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662847591,
+          "stop" : 1574662847999,
+          "duration" : 408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'ABC123'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex-abc123-alex您好]",
+        "uid" : "2063ef2bfa063128",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662838007,
+          "stop" : 1574662840860,
+          "duration" : 2853
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[ alex@163.com-abc123-alex您好]",
+        "uid" : "be571ec876b0c88",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662844209,
+          "stop" : 1574662844826,
+          "duration" : 617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "' alex@163.com'" ]
+      }, {
+        "name" : "test_login_error[xxx' or 1==1 -- x-abc123-用户名和密码不匹配]",
+        "uid" : "eb3960404a9b5c23",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662848423,
+          "stop" : 1574662848812,
+          "duration" : 389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'xxx' or 1==1 -- x'" ]
+      }, {
+        "name" : "test_login_pass[ALEX-abc123-alex您好]",
+        "uid" : "bc822821d0de42c1",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662840872,
+          "stop" : 1574662841524,
+          "duration" : 652
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'ALEX'" ]
+      }, {
+        "name" : "test_login_part[alex-a bc123 -填写密码]",
+        "uid" : "41e8ff94ef426519",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662849654,
+          "stop" : 1574662849845,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'a bc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex@163.com-abc1234-用户名和密码不匹配]",
+        "uid" : "5b3fefe6295770ba",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662847248,
+          "stop" : 1574662847583,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc1234'", "'alex@163.com'" ]
+      }, {
+        "name" : "test_login_error[alex' -- x-abc123-用户名和密码不匹配]",
+        "uid" : "bc14c27cf10ea48a",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662848011,
+          "stop" : 1574662848416,
+          "duration" : 405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex' -- x'" ]
+      }, {
+        "name" : "test_login_part[-abc123-填写用户名或邮箱]",
+        "uid" : "a028f95ec7410442",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662848819,
+          "stop" : 1574662849067,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写用户名或邮箱'", "'abc123'", "''" ]
+      }, {
+        "name" : "test_login_pass[alex@163.com -abc123-alex您好]",
+        "uid" : "d48a208e7447ecb5",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662844840,
+          "stop" : 1574662845376,
+          "duration" : 536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex@163.com '" ]
+      }, {
+        "name" : "test_login_pass[ alex-abc123-alex您好]",
+        "uid" : "578c1c366ebc4f8d",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662841532,
+          "stop" : 1574662842146,
+          "duration" : 614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "' alex'" ]
+      }, {
+        "name" : "test_login_error[alex-abc1234-用户名和密码不匹配]",
+        "uid" : "8f669f647a2fd9e",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662846883,
+          "stop" : 1574662847234,
+          "duration" : 351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc1234'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[ALEX@163.COM-abc123-alex您好]",
+        "uid" : "b1da0d2f0fa36bf8",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662843633,
+          "stop" : 1574662844182,
+          "duration" : 549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'ALEX@163.COM'" ]
+      }, {
+        "name" : "test_login_pass[alex@163.com-abc123-alex您好]",
+        "uid" : "41cccba01954feea",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662842884,
+          "stop" : 1574662843624,
+          "duration" : 740
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex@163.com'" ]
+      }, {
+        "name" : "test_login_pass[alex -abc123-alex您好]",
+        "uid" : "fdf807f7bd6d7933",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662842162,
+          "stop" : 1574662842872,
+          "duration" : 710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex '" ]
+      }, {
+        "name" : "test_login_error[alex11@163.com-abc123-用户名和密码不匹配]",
+        "uid" : "75cc93b569a1cbea",
+        "parentUid" : "84030ca1a1ab92f37cb53a1f992b1210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662846510,
+          "stop" : 1574662846873,
+          "duration" : 363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11@163.com'" ]
+      } ],
+      "uid" : "84030ca1a1ab92f37cb53a1f992b1210"
+    }, {
+      "name" : "37368-MainThread",
+      "children" : [ {
+        "name" : "test_login_part[alex-a bc123 -填写密码]",
+        "uid" : "d04e93bc52e1792e",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744017801,
+          "stop" : 1573744017999,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'a bc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex11@163.com-abc123-用户名和密码不匹配]",
+        "uid" : "83566b11778751ec",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573744015273,
+          "stop" : 1573744015699,
+          "duration" : 426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11@163.com'" ]
+      }, {
+        "name" : "test_login_pass[ alex-abc123-alex您好]",
+        "uid" : "563b0a7d7396b144",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744012447,
+          "stop" : 1573744013082,
+          "duration" : 635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "' alex'" ]
+      }, {
+        "name" : "test_login_part[alex-abc123 -填写密码]",
+        "uid" : "9333049df9b8ffcb",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744017582,
+          "stop" : 1573744017794,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "'abc123 '", "'alex'" ]
+      }, {
+        "name" : "test_login_part[alex--填写密码]",
+        "uid" : "4fb7d08577c2e20d",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744017199,
+          "stop" : 1573744017358,
+          "duration" : 159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "''", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex@163.com-abc123-alex您好]",
+        "uid" : "7b7eb81c77df993d",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744013714,
+          "stop" : 1573744014360,
+          "duration" : 646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex@163.com'" ]
+      }, {
+        "name" : "test_login_part[-abc123-填写用户名或邮箱]",
+        "uid" : "1a9d56d363a0e3ea",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744016889,
+          "stop" : 1573744017188,
+          "duration" : 299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写用户名或邮箱'", "'abc123'", "''" ]
+      }, {
+        "name" : "test_link_pwd",
+        "uid" : "9b909a776a558d58",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744018009,
+          "stop" : 1573744018193,
+          "duration" : 184
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login_error[alex-ABC123-用户名和密码不匹配]",
+        "uid" : "4c6e1e2b093a67b9",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573744016097,
+          "stop" : 1573744016465,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'ABC123'", "'alex'" ]
+      }, {
+        "name" : "test_login_pass[alex -abc123-alex您好]",
+        "uid" : "d29a2bbe1f87d1a5",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744013097,
+          "stop" : 1573744013698,
+          "duration" : 601
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex '" ]
+      }, {
+        "name" : "test_login_error[alex-abc1234-用户名和密码不匹配]",
+        "uid" : "fcb92484d3c17013",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573744015726,
+          "stop" : 1573744016079,
+          "duration" : 353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc1234'", "'alex'" ]
+      }, {
+        "name" : "test_login_error[a lex-abc123-用户名和密码不匹配]",
+        "uid" : "aab635513cb41098",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573744014373,
+          "stop" : 1573744014761,
+          "duration" : 388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'a lex'" ]
+      }, {
+        "name" : "test_login_error[alex' -- x-abc123-用户名和密码不匹配]",
+        "uid" : "c8001545bc6c9448",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573744016490,
+          "stop" : 1573744016863,
+          "duration" : 373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex' -- x'" ]
+      }, {
+        "name" : "test_login_pass[ALEX-abc123-alex您好]",
+        "uid" : "61e6679b095ad577",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744011763,
+          "stop" : 1573744012428,
+          "duration" : 665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'ALEX'" ]
+      }, {
+        "name" : "test_login_pass[alex-abc123-alex您好]",
+        "uid" : "fc2ab0c876395a8d",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744010857,
+          "stop" : 1573744011749,
+          "duration" : 892
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'alex您好'", "'abc123'", "'alex'" ]
+      }, {
+        "name" : "test_login_error[alex11-abc123-用户名和密码不匹配]",
+        "uid" : "3a1a2d725bda0d92",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "broken",
+        "time" : {
+          "start" : 1573744014890,
+          "stop" : 1573744015245,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'用户名和密码不匹配'", "'abc123'", "'alex11'" ]
+      }, {
+        "name" : "test_login_part[alex- abc123-填写密码]",
+        "uid" : "c978084b862d64ee",
+        "parentUid" : "e7b2973b1fe39da36caebb98d54c2092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573744017369,
+          "stop" : 1573744017571,
+          "duration" : 202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'填写密码'", "' abc123'", "'alex'" ]
+      } ],
+      "uid" : "e7b2973b1fe39da36caebb98d54c2092"
+    } ],
+    "uid" : "09fd7cb337960f0e8423527fbe3a1f4f"
+  } ]
+}

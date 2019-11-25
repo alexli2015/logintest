@@ -1,0 +1,93 @@
+{
+  "uid" : "acf3df9b08f51216",
+  "name" : "test_login_part[alex-a bc123 -填写密码]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_part",
+  "historyId" : "ec2983fd93070402f60084631cd0e34e",
+  "time" : {
+    "start" : 1573743820810,
+    "stop" : 1573743821042,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1573743808433,
+      "stop" : 1573743814028,
+      "duration" : 5595
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1573743821063,
+      "stop" : 1573743823359,
+      "duration" : 2296
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "45488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'填写密码'"
+  }, {
+    "name" : "pwd",
+    "value" : "'a bc123 '"
+  }, {
+    "name" : "user",
+    "value" : "'alex'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "acf3df9b08f51216.json",
+  "parameterValues" : [ "'填写密码'", "'a bc123 '", "'alex'" ]
+}

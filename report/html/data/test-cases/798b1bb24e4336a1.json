@@ -1,0 +1,95 @@
+{
+  "uid" : "798b1bb24e4336a1",
+  "name" : "test_login_error[alex-abc1234-用户名和密码不匹配]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_error",
+  "historyId" : "ea66d116c0964e11d021aedf40ded218",
+  "time" : {
+    "start" : 1573743541461,
+    "stop" : 1573743541815,
+    "duration" : 354
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'Login' object has no attribute 'find_elment'",
+  "statusTrace" : "self = <测试.iwebshop.test_scripts.test_login.TestLogin object at 0x0000022E648D74E0>, user = 'alex', pwd = 'abc1234', exp = '用户名和密码不匹配'\n\n    @pytest.mark.parametrize(\"user,pwd,exp\", get_param(\"login_error\"))\n    def test_login_error(self, user, pwd, exp):\n        self.login_obj.login(user, pwd)\n>       assert exp in self.login_obj.get_not_match()\n\ntest_scripts\\test_login.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <page.login_page.Login object at 0x0000022E64840898>\n\n    def get_not_match(self):\n>       return self.find_elment(settings.EL_NOT_MATCH)\nE       AttributeError: 'Login' object has no attribute 'find_elment'\n\npage\\login_page.py:26: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1573743528103,
+      "stop" : 1573743534076,
+      "duration" : 5973
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1573743542752,
+      "stop" : 1573743545024,
+      "duration" : 2272
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "44396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'用户名和密码不匹配'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc1234'"
+  }, {
+    "name" : "user",
+    "value" : "'alex'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "798b1bb24e4336a1.json",
+  "parameterValues" : [ "'用户名和密码不匹配'", "'abc1234'", "'alex'" ]
+}

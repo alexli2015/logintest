@@ -1,0 +1,151 @@
+{
+  "uid" : "3519219bb7731d34",
+  "name" : "test_login_pass[alex-abc123-alex您好]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_pass",
+  "historyId" : "99dd4b93d12db9537dc99b0a97d395c2",
+  "time" : {
+    "start" : 1573744814278,
+    "stop" : 1573744816379,
+    "duration" : 2101
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1573744808305,
+      "stop" : 1573744814271,
+      "duration" : 5966
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录成功测试用例",
+      "time" : {
+        "start" : 1573744814278,
+        "stop" : 1573744816379,
+        "duration" : 2101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b6eb9d30a4d381b",
+        "name" : "f7b8f164-6ebe-4735-b2d8-6b035a746b9f-attachment.attach",
+        "source" : "8b6eb9d30a4d381b.attach",
+        "type" : "text/plain",
+        "size" : 19
+      }, {
+        "uid" : "5802f713ba410713",
+        "name" : "2278eeb8-41ed-4a11-aef6-a618da8be48d-attachment.attach",
+        "source" : "5802f713ba410713.attach",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "fa4534e3b2154788",
+        "name" : "64e24376-96ae-42eb-8a5c-01fac371286e-attachment.attach",
+        "source" : "fa4534e3b2154788.attach",
+        "type" : "text/plain",
+        "size" : 12
+      }, {
+        "uid" : "3a7c92cf291e0144",
+        "name" : "da4652a5-a73c-4636-b721-6a9528294fe9-attachment.attach",
+        "source" : "3a7c92cf291e0144.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'alex'"
+      }, {
+        "name" : "pwd",
+        "value" : "'abc123'"
+      }, {
+        "name" : "exp",
+        "value" : "'alex您好'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1573744823164,
+      "stop" : 1573744825439,
+      "duration" : 2275
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "47400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'alex您好'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123'"
+  }, {
+    "name" : "user",
+    "value" : "'alex'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3519219bb7731d34.json",
+  "parameterValues" : [ "'alex您好'", "'abc123'", "'alex'" ]
+}

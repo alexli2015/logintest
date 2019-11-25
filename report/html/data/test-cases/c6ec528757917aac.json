@@ -1,0 +1,145 @@
+{
+  "uid" : "c6ec528757917aac",
+  "name" : "test_login_part[alex-abc123 -填写密码]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_part",
+  "historyId" : "f71b159ce69b87d6a8441e22e3dca646",
+  "time" : {
+    "start" : 1573744822508,
+    "stop" : 1573744822722,
+    "duration" : 214
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1573744808305,
+      "stop" : 1573744814271,
+      "duration" : 5966
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "用户名或密码输入无效测试用例",
+      "time" : {
+        "start" : 1573744822508,
+        "stop" : 1573744822722,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2070956ad37c4308",
+        "name" : "768052ee-6b7e-4551-841a-568783ab96fe-attachment.attach",
+        "source" : "2070956ad37c4308.attach",
+        "type" : "text/plain",
+        "size" : 19
+      }, {
+        "uid" : "f13f82cad8648672",
+        "name" : "9fbce6bb-0b9b-4d7b-90b5-d7b4eb0c8a3a-attachment.attach",
+        "source" : "f13f82cad8648672.attach",
+        "type" : "text/plain",
+        "size" : 19
+      }, {
+        "uid" : "431548b822ba9d20",
+        "name" : "8ebf3d5b-87cf-4bca-a608-18493ba4251b-attachment.attach",
+        "source" : "431548b822ba9d20.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'alex'"
+      }, {
+        "name" : "pwd",
+        "value" : "'abc123 '"
+      }, {
+        "name" : "exp",
+        "value" : "'填写密码'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1573744823164,
+      "stop" : 1573744825439,
+      "duration" : 2275
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "47400-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'填写密码'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123 '"
+  }, {
+    "name" : "user",
+    "value" : "'alex'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6ec528757917aac.json",
+  "parameterValues" : [ "'填写密码'", "'abc123 '", "'alex'" ]
+}

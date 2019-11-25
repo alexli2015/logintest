@@ -1,0 +1,95 @@
+{
+  "uid" : "ace585b853cdaec9",
+  "name" : "test_login_part[alex-a bc123 -填写密码]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_part",
+  "historyId" : "ec2983fd93070402f60084631cd0e34e",
+  "time" : {
+    "start" : 1573743324281,
+    "stop" : 1573743324281,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: login() takes 3 positional arguments but 4 were given",
+  "statusTrace" : "self = <测试.iwebshop.test_scripts.test_login.TestLogin object at 0x000001C6DA263FD0>, user = 'alex', pwd = 'a bc123 ', exp = '填写密码'\n\n    @pytest.mark.parametrize(\"user,pwd,exp\", get_param(\"login_part\"))\n    def test_login_part(self, user, pwd, exp):\n>       self.login_obj.login(user, pwd, exp)\nE       TypeError: login() takes 3 positional arguments but 4 were given\n\ntest_scripts\\test_login.py:43: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1573743315801,
+      "stop" : 1573743321598,
+      "duration" : 5797
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1573743324305,
+      "stop" : 1573743326590,
+      "duration" : 2285
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "34120-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'填写密码'"
+  }, {
+    "name" : "pwd",
+    "value" : "'a bc123 '"
+  }, {
+    "name" : "user",
+    "value" : "'alex'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ace585b853cdaec9.json",
+  "parameterValues" : [ "'填写密码'", "'a bc123 '", "'alex'" ]
+}

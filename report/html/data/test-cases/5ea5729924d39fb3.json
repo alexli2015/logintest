@@ -1,0 +1,199 @@
+{
+  "uid" : "5ea5729924d39fb3",
+  "name" : "test_login_error[a lex-abc123-用户名和密码不匹配]",
+  "fullName" : "test_scripts.test_login.TestLogin#test_login_error",
+  "historyId" : "c24487c67e6c0dfcdac05c378fcfacbf",
+  "time" : {
+    "start" : 1574662845391,
+    "stop" : 1574662845757,
+    "duration" : 366
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1574662832199,
+      "stop" : 1574662838005,
+      "duration" : 5806
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "用户名和密码不匹配测试用例",
+      "time" : {
+        "start" : 1574662845391,
+        "stop" : 1574662845757,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ff4506231f35887c",
+        "name" : "2b13c555-68e4-494b-935c-818b8a45241c-attachment.attach",
+        "source" : "ff4506231f35887c.attach",
+        "type" : "text/plain",
+        "size" : 20
+      }, {
+        "uid" : "83debe020f4f7687",
+        "name" : "b0b9cd9c-e12a-4205-9a2c-18d04f3a9d24-attachment.attach",
+        "source" : "83debe020f4f7687.attach",
+        "type" : "text/plain",
+        "size" : 18
+      }, {
+        "uid" : "bedd9fd04bc4d5ca",
+        "name" : "519020b2-2664-4adc-899e-066544c808d8-attachment.attach",
+        "source" : "bedd9fd04bc4d5ca.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "'a lex'"
+      }, {
+        "name" : "pwd",
+        "value" : "'abc123'"
+      }, {
+        "name" : "exp",
+        "value" : "'用户名和密码不匹配'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1574662850083,
+      "stop" : 1574662852325,
+      "duration" : 2242
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JKISR1H"
+  }, {
+    "name" : "thread",
+    "value" : "35632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "exp",
+    "value" : "'用户名和密码不匹配'"
+  }, {
+    "name" : "pwd",
+    "value" : "'abc123'"
+  }, {
+    "name" : "user",
+    "value" : "'a lex'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5d00c97c2c794a29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573744819135,
+        "stop" : 1573744819549,
+        "duration" : 414
+      }
+    }, {
+      "uid" : "63b8a4419c07bac6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573744117924,
+        "stop" : 1573744118347,
+        "duration" : 423
+      }
+    }, {
+      "uid" : "aab635513cb41098",
+      "status" : "broken",
+      "statusDetails" : "TypeError: argument of type 'WebElement' is not iterable",
+      "time" : {
+        "start" : 1573744014373,
+        "stop" : 1573744014761,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "fbe3cbdf80249a3e",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Login' object has no attribute 'find_elment'",
+      "time" : {
+        "start" : 1573743817408,
+        "stop" : 1573743817766,
+        "duration" : 358
+      }
+    }, {
+      "uid" : "ab66bd3e28e39f8",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Login' object has no attribute 'find_elment'",
+      "time" : {
+        "start" : 1573743539913,
+        "stop" : 1573743540369,
+        "duration" : 456
+      }
+    }, {
+      "uid" : "eaf5ec3fb88927d0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Login' object has no attribute 'click'",
+      "time" : {
+        "start" : 1573743322968,
+        "stop" : 1573743323145,
+        "duration" : 177
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ea5729924d39fb3.json",
+  "parameterValues" : [ "'用户名和密码不匹配'", "'abc123'", "'a lex'" ]
+}

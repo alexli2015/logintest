@@ -1,0 +1,91 @@
+login_pass:
+    test_001:
+        user: "alex"
+        pwd: "abc123"
+        exp: "alex您好"
+    test_002:
+        user: "ALEX"
+        pwd: "abc123"
+        exp: "alex您好"
+    test_003:
+        user: " alex"
+        pwd: "abc123"
+        exp: "alex您好"
+    test_004:
+        user: "alex "
+        pwd: "abc123"
+        exp: "alex您好"
+    test_005:
+        user: "alex@163.com"
+        pwd: "abc123"
+        exp: "alex您好"
+    test_006:
+        user: "ALEX@163.COM"
+        pwd: "abc123"
+        exp: "alex您好"
+    test_007:
+        user: " alex@163.com"
+        pwd: "abc123"
+        exp: "alex您好"
+    test_008:
+        user: "alex@163.com "
+        pwd: "abc123"
+        exp: "alex您好"
+login_error:
+    test_009:
+        user: "a lex"
+        pwd: "abc123"
+        exp: "用户名和密码不匹配"
+    test_010:
+        user: "alex @163.com"
+        pwd: "abc123"
+        exp: "用户名和密码不匹配"
+    test_011:
+        user: "alex11"
+        pwd: "abc123"
+        exp: "用户名和密码不匹配"
+    test_012:
+        user: "alex11@163.com"
+        pwd: "abc123"
+        exp: "用户名和密码不匹配"
+    test_013:
+        user: "alex"
+        pwd: "abc1234"
+        exp: "用户名和密码不匹配"
+    test_014:
+        user: "alex@163.com"
+        pwd: "abc1234"
+        exp: "用户名和密码不匹配"
+    test_015:
+        user: "alex"
+        pwd: "ABC123"
+        exp: "用户名和密码不匹配"
+    test_016:
+        user: "alex' -- x"
+        pwd: "abc123"
+        exp: "用户名和密码不匹配"
+    test_017:
+        user: "xxx' or 1==1 -- x"
+        pwd: "abc123"
+        exp: "用户名和密码不匹配"
+login_part:
+    test_018:
+        user: ""
+        pwd: "abc123"
+        exp: "填写用户名或邮箱"
+    test_019:
+        user: "alex"
+        pwd: ""
+        exp: "填写密码"
+    test_020:
+        user: "alex"
+        pwd: " abc123"
+        exp: "填写密码"
+    test_021:
+        user: "alex"
+        pwd: "abc123 "
+        exp: "填写密码"
+    test_022:
+        user: "alex"
+        pwd: "a bc123 "
+        exp: "填写密码"
